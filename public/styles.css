@@ -1,0 +1,55 @@
+.collaborate {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.service-card {
+  font-family: serif;
+}
+
+.service-h2 {
+  font-size: 38px;
+}
+
+.service-h3 {
+  font-size: 19px;
+}
+
+.service-p {
+  text-decoration: none;
+  font-size: 18px;
+  color: #346cdb;
+  font-weight: bold;
+}
+.service-p:hover {
+  color: rgba(0, 0, 0, 0.689);
+}
+
+.service-img {
+  height: 100%;
+  width: 85%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .service-h2 {
+    font-size: 48px;
+  }
+  .service-h3 {
+    font-size: 21px;
+  }
+  .service-p {
+    font-size: 21px;
+    color: black;
+  }
+  .service-p:hover {
+    color: rgba(0, 0, 0, 0.689);
+  }
+  .img-div {
+    align-items: center;
+  }
+  .service-img {
+    width: 100%;
+  }
+}
+
